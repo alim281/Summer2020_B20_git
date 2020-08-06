@@ -24,6 +24,7 @@ public class ZmbieAttack {
                             if (inhabitants[i] == 0 && inhabitants[i + 1] != 0) {
                                 inhabitants[i + 1] /= 2;
                                 i += 1;
+                                // This is the test codes
                             }
                         }
                     }
